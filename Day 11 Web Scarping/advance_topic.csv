@@ -1,0 +1,4 @@
+Title,Content
+Spoofing Headers,Sometimes you need to make your web scraper appear to be making HTTP requests as a browser in order to get the web server to return the same data that you see in your browser.
+Logins & Session Data,"Submit some data in one request, get a session cookie back from the site, and then be sure to send that cookie back on subsequent requests so you stay ""logged in"" between requests."
+CSRF & Hidden Values,"Some forms require hidden values to be submitted, not just the fields that have text fields. Load the login page, grab all the hidden value, then submit them with the rest of the form fields."
